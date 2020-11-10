@@ -7,4 +7,4 @@
 For more info read the following blog post: 
 https://helm.sh/blog/charts-repo-deprecation/
 
-{{ required "\n*******************************************************\n* This chart location is depreacted. Learn more here: *\n* https://helm.sh/blog/charts-repo-deprecation/       *\n*******************************************************\n" .Values.deprecationNotice }}
+{{ fail "\n*******************************************************\n* This chart location is depreacted. Learn more here: *\n* https://helm.sh/blog/charts-repo-deprecation/       *\n*******************************************************\n" }}
